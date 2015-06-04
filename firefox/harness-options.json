@@ -1,0 +1,49 @@
+{
+ "enable_e10s": false, 
+ "is-sdk-bundled": true, 
+ "jetpackID": "jid0-essZY20Nm5ABBKIRymFnEuoii7E@jetpack", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "servicenow-barcode-printer/main", 
+ "manifest": {
+  "servicenow-barcode-printer/main": {
+   "docsSHA256": null, 
+   "jsSHA256": "453ebc6f5153ccc9f35fa0e35a50291783ac309625ca8ff08a0fd51e1b2faafe", 
+   "moduleName": "main", 
+   "packageName": "servicenow-barcode-printer", 
+   "requirements": {
+    "page-mod": "sdk/page-mod", 
+    "self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "servicenow-barcode-printer": {
+   "author": "oleg-v", 
+   "description": "Adds barcodes containing the incident number and caller to ticket printouts, and adds a button to print barcode labels to a Labelwriter 450 Twin Turbo printer. Created for use at Northeastern University ResNet.", 
+   "main": "main", 
+   "name": "servicenow-barcode-printer", 
+   "version": "initial.rev39.1"
+  }
+ }, 
+ "name": "servicenow-barcode-printer", 
+ "repack": "true", 
+ "sdkVersion": "1.14", 
+ "staticArgs": {}, 
+ "verbose": false
+}
